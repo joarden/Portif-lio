@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.image {
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 20px;
+    width: 150px;  /* Ajuste a largura conforme necessário */
+    height: 225px;  /* Ajuste a altura para se aproximar da proporção da foto */
+    
+    /* Estilo do contêiner da imagem */
+    margin-left: 10px;  /* Ajuste a margem para a esquerda */
+    margin-top: 60px;  /* Espaço superior */
+    
+    display: flex;  /* Ativa o flexbox */
+    justify-content: center;  /* Alinha o conteúdo horizontalmente no centro */
+    align-items: center;  /* Alinha o conteúdo verticalmente no centro */
+    text-align: center;  /* Centraliza o texto dentro do elemento */
+    
+    position: relative; /* Pode ser útil para controlar a posição em relação ao topo */
+}
+
+/* Estilo para a imagem dentro do contêiner */
+.image img {
+    width: 100%;  /* Ajusta a imagem para ocupar toda a largura do contêiner */
+    height: auto;  /* Mantém a proporção da imagem */
+    border-radius: 20px;  /* Mantém o arredondamento das bordas da imagem */
+}
+
+/* Remove a margem e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+/* Estilo do menu */
+.menu {
+    display: flex;  /* Ativa o Flexbox */
+    justify-content: flex-end;  /* Alinha os itens à direita */
+    background-color: #121212;  /* Cor de fundo do menu */
+    padding: 10px 20px;  /* Adiciona espaçamento ao redor */
+    background-color: #282828;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;  /* Cor do texto */
+    text-decoration: none;  /* Remove sublinhado */
+    margin-left: 20px;  /* Espaçamento entre os itens */
+    font-size: 16px;  /* Tamanho da fonte */
+    transition: 0.3s;
+    margin: 12px;
+}
+
+.menu a:hover {
+    color: #999999;  /* Cor ao passar o mouse */
+    transform: scale(0.9);
+}
+.prazer{
+    color: white;
+margin-left: 1080px;
+
+}
+
+.texto_1 h1{
+color: aliceblue;
+font-size: 60px;
+margin-left: 450px;
+margin-top: 10px;
+}
+
+.GitHub a{
+    background-color: #282828;
+    padding: 20px;
+    width: 250px;
+    border: none; 
+    border-radius: 20px;
+margin-left: 70%;
+color: #fff;
+transition: 0.2s;
+}
+
+.GitHub a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.GitHub a{
+    display: flex; /* Flexbox para alinhar itens */
+    align-items: center; /* Alinha ícone e texto verticalmente */
+    background-color: #282828;
+    padding: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    justify-content: center; /* Centraliza horizontalmente */
+  text-decoration-color: #6443b1;
+  }
+
+.GitHub a i{
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    padding: 5px;
+}
+
+.GitHub a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.GitHub h1 {
+    margin: 0; /* Remove margens do h1 */
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+}
+
+.GitHub a i {
+    padding: 10px; /* Adiciona espaçamento interno ao redor do ícone */
+}
+.contai {
+    display: flex; /* Coloca a imagem e o texto lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: flex-start; /* Garante que os itens fiquem alinhados à esquerda */
+    gap: 50px; /* Espaço entre a imagem e o texto */
+    margin-top: 50px; /* Espaço superior */
+    padding-left: 20px; /* Adiciona um recuo para afastar do limite esquerdo do site */
+    
+}
+
+/* Estilizando a imagem */
+.image {
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Ajustes no texto */
+.texto_1 h1 {
+    color: aliceblue;
+    font-size: 60px;
+    margin: 20px; /* Remove margens para melhor alinhamento */
+}
+
+#name{
+    margin-left:55px ;
+    font-family: 'Press Start 2P', sans-serif;;
+}
+.texto_2 h1{
+    margin-left: 475px;
+    font-size: 60px;
+}
+.texto_2 h2 {
+    max-width: 700px; /* Limita a largura do texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    text-align: justify; /* Alinha o texto justificadamente */
+    color: #fff; /* Cor do texto */
+}
+@keyframes flutuar {
+
+
+}
+
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section#Projetos {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section#Projetos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: 2ms;
+  }
+  
+  .card {
+    width: 150px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 200%;
+    text-align: center;
+    color: white;
+    background-color: #6b46c1; /* Cor do banner */
+    font-weight: bold;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    padding: 10px 0;
+  }
+  .card {
+    width: 250px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Impede que o conteúdo ultrapasse os limites do card */
+    margin: 30px;
+    transition: 0.2s;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%; /* Faz o banner atravessar o card */
+    text-align: center;
+    color: white;
+    background-color: #6b46c1; /* Cor do banner */
+    font-weight: bold;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Centraliza o banner e gira */
+    transform-origin: center;
+    padding: 25px 0;
+    transition: 0.2ss;
+  }
+  
+.card:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: #272727;
+    animation: not 0.5s ease-in-out infinite alternate ;
+  }
+
+  .card .banner:hover{
+    background-color: #6443b1;
+  }
+
+  @keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+  }
+
+  .GitHub a{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate ;
+  }
+
+  @keyframes not{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(3);
+    }
+  }
+
+  @media (max-width: 1024px) { /* Tablets */
+    .texto_1 h1 {
+      font-size: 40px; /* Reduz o tamanho da fonte */
+      margin-left: 20px;
+    }
+  
+    .GitHub a{
+      width: 200px; /* Ajusta o tamanho do botão */
+    }
+  
+    .cards {
+      flex-direction: column; /* Alinha cards em coluna */
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) { /* Celulares */
+    .menu {
+      flex-direction: column; /* Transforma o menu em vertical */
+      align-items: center;
+    }
+  
+    .contai {
+      flex-direction: column; /* Alinha imagem e texto em coluna */
+      gap: 20px;
+    }
+  
+    .texto_1 h1 {
+      font-size: 30px; /* Reduz ainda mais o tamanho da fonte */
+      margin: 0;
+      text-align: center; /* Centraliza o texto */
+    }
+  
+    .GitHub a {
+      width: 180px; /* Ajusta tamanho para telas menores */
+    }
+  
+    .cards {
+      flex-direction: column; /* Alinha os cards em uma coluna */
+      align-items: center; /* Centraliza os cards */
+      gap: 15px;
+    }
+  
+    .card {
+      width: 90%; /* Faz o card ocupar quase toda a largura */
+      height: auto; /* Ajusta a altura automaticamente */
+    }
+  
+    .image {
+      width: 120px; /* Reduz o tamanho da imagem */
+      height: 180px; /* Proporção ajustada */
+    }
+  }
+  @media (max-width: 768px) {
+    .menu {
+      display: none; /* Esconde o menu principal */
+    }
+  
+    .menu-hamburguer {
+      display: block; /* Mostra o botão hambúrguer */
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      font-size: 30px;
+      color: white;
+    }
+  
+    .menu-aberto {
+      display: flex;
+      flex-direction: column;
+      background-color: #121212;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 70%;
+      align-items: center;
+      padding-top: 50px;
+    }
+  
+    .menu-aberto a {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .GitHub {
+        display: flex; /* Ativa o Flexbox */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        margin-top: 20px; /* Adiciona espaço superior */
+    }
+}
+@media (max-width: 768px) {
+    .GitHub {
+        display: flex; /* Ativa o Flexbox */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        margin-top: 20px; /* Adiciona espaço superior */
+    }
+
+    .texto_2 h1 {
+        text-align: center; /* Centraliza o texto */
+        margin: 0 auto; /* Remove margens laterais */
+        margin-top: 20px; /* Espaço superior */
+    }
+}
+/* Oculta o botão hambúrguer em telas maiores */
+.menu-hamburguer {
+    display: none;
+}
+
+/* Mostra o botão hambúrguer em telas menores */
+@media (max-width: 768px) {
+    .menu-hamburguer {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .menu-links {
+        display: none; /* Esconde os links inicialmente no mobile */
+        flex-direction: column; /* Links em coluna no mobile */
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: #282828;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .menu-links.active {
+        display: flex; /* Mostra os links ao clicar no botão hambúrguer */
+    }
+}
+/* Estilo para o botão do menu hambúrguer */
+.menu-hamburguer {
+    display: none; /* Apenas visível no mobile */
+}
+
+/* Em telas menores, mostra e centraliza o botão */
+@media (max-width: 768px) {
+    .menu-hamburguer {
+        display: flex; /* Ativa flexbox */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        width: 100%; /* Faz o botão ocupar toda a largura */
+        font-size: 2rem; /* Tamanho do ícone */
+        color: white;
+        margin-top: 10px; /* Espaço superior */
+        cursor: pointer;
+    }
+
+    .menu-links {
+        display: none; /* Esconde os links inicialmente */
+        flex-direction: column; /* Alinha links em coluna */
+        position: absolute;
+        top: 50px; /* Ajusta a posição dos links */
+        right: 20px;
+        background-color: #282828; /* Fundo escuro para os links */
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 10;
+    }
+
+    .menu-links.active {
+        display: flex; /* Mostra os links ao clicar no hambúrguer */
+    }
+.cards{
+    display: block;
+}
+#name{
+    display: none;
+}
+
+}
+
+#Projetos {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 80%; /* Ajuste conforme necessário */
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    text-align: center;
+    color: white;
+    background-color: #6b46c1;
+    font-weight: bold;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    padding: 25px 0;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+

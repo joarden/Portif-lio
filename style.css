@@ -406,6 +406,72 @@ body {
     display: none;
 }
 
+section #Contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 45px;
+  background: #1d1d2e;
+  width: 500px;
+ 
+}
+
+#Contato h2{
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+#Contato form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#Contato label{
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+#Contato input{
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+#Contato input:focus{
+  border-radius: 16px;
+}
+
+#Contato textarea{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+#Contato textarea:focus{
+  border-radius: 16px;
+}
+
+#Contato button{
+  padding: 15px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #f5f5f5;
+  transition: all 1s;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+#Contato button:hover{
+  background: #f5f5f5;
+  color: #121212;
+  border-radius: 16px;
+}
+
 /* Mostra o botão hambúrguer em telas menores */
 @media (max-width: 768px) {
     .menu-hamburguer {
@@ -526,3 +592,28 @@ body {
     z-index: 10;
 }
 
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111111;
+  flex-direction: column;
+
+}
+
+.paragrafo{
+  margin-bottom: 50px;
+}
+.btn{
+  padding: 15px 55px;
+  background: #f5f5f5;
+  color: #111111;
+  font-size: 20px;
+  transition: all 0.9;
+  border-radius: 12px;
+}
+
+.btn:hover{
+  transform: scale(0.9);
+}

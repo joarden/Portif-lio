@@ -62,6 +62,36 @@ body {
     background-color: #282828;
     padding: 20px;
 }
+.menu {
+    position: fixed; /* Fixa o menu no topo da página */
+    top: 0; /* Cola no topo */
+    left: 0;
+    width: 100%; /* Ocupa a largura total */
+    background: rgba(0, 0, 0, 0.8); /* Fundo escuro semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000; /* Mantém o menu acima dos outros elementos */
+    transition: padding 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #00ffcc; /* Cor diferente ao passar o mouse */
+}
+
+body {
+    padding-top: 60px; /* Evita que o conteúdo fique coberto pelo menu */
+}
 
 .menu a {
     color: white;  /* Cor do texto */

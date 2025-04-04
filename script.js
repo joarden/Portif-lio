@@ -17,3 +17,13 @@ function moveCard(direction) {
     const offset = -currentIndex * (cards[0].offsetWidth + 20); // largura do card + margem
     document.querySelector('.cards').style.transform = `translateX(${offset}px)`;
 }
+window.addEventListener("scroll", function() {
+    let nav = document.querySelector("nav");
+    if (window.scrollY > 50) {
+        nav.style.padding = "5px 20px";
+        nav.style.background = "rgba(0, 0, 0, 0.9)";
+    } else {
+        nav.style.padding = "10px 20px";
+        nav.style.background = "rgba(0, 0, 0, 0.8)";
+    }
+});
